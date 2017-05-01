@@ -8,13 +8,15 @@
 
 > This very very basic example of code injection swizzles `-(NSString *)getName`. This is a method of the `SampleUser` class. When the executable is run normally, the output will be
 
-`name = John Doe
-age = 20`
+`name = John Doe`
+
+`age = 20`
 
 > When the executable is run with the dynamic library injected into it, the output be
 
-`name = Alan Turing
-age = 20`
+`name = Alan Turing`
+
+`age = 20`
 
 > Look inside the `SampleUserOverrides.m` file to see what the new method does :)
 
